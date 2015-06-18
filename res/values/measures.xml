@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <dimen name="btnWidth">200dp</dimen>
+	<dimen name="btnPadding">20dp</dimen>
+	<dimen name="centralPadding">48dp</dimen>
+	<dimen name="txtTitleSize">36dp</dimen>
+
+</resources>

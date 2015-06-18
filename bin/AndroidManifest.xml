@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dieese.agenda"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="16" />
+    
+    <instrumentation android:name="android.test.InstrumentationTestRunner" android:targetPackage="com.dieese.agenda" android:label="ContatoTest" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+     
+    <uses-library android:name="android.test.runner" />
+    
+        <activity
+            android:name="com.dieese.agenda.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.dieese.agenda.ContatoEditar"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.CONTATOCADASTRAR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.dieese.agenda.ContatoListar"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.CONTATOLISTAR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.dieese.agenda.ContatoVisual" 
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.CONTATOVISUAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+
+</manifest>

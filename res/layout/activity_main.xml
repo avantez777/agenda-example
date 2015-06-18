@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_menu" >
+
+    <TextView
+        android:id="@+id/txtTitleMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btnPadding"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="@dimen/txtTitleSize"
+        android:textColor="@color/background_text" />
+    
+    <RelativeLayout 
+        android:id="@+id/btnContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+    
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/btnPadding"
+        android:text="@string/cadastrar"
+        />
+    
+    <Button 
+        android:id="@+id/btnVisualizar"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCadastrar"
+        android:padding="@dimen/btnPadding"
+        android:text="@string/visualizar"
+        />    
+        
+    <Button 
+        android:id="@+id/btnAlterar"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnVisualizar"
+        android:padding="@dimen/btnPadding"
+        android:text="@string/alterar"
+        />
+    
+    <Button 
+        android:id="@+id/btnExcluir"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAlterar"
+        android:padding="@dimen/btnPadding"
+        android:text="@string/excluir"
+        />
+    
+    </RelativeLayout>
+
+</RelativeLayout>

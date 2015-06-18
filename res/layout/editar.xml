@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/btnPadding"
+    android:background="@color/background_menu" >
+
+    <TextView
+        android:id="@+id/txtTitleEdition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="..."
+        android:textSize="@dimen/txtTitleSize"
+        android:textColor="@color/background_text" />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitleEdition"
+        android:padding="@dimen/centralPadding"
+        android:layout_centerInParent="true">
+        
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:hint="Nome : " />
+        
+       <EditText
+            android:id="@+id/edtNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:layout_below="@id/edtNome"
+            android:hint="Nascimento : " />
+       
+      <EditText
+            android:id="@+id/edtEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxLength="50"
+            android:layout_below="@id/edtNascimento"
+            android:hint="Empresa : " />
+       
+      <EditText
+            android:id="@+id/edtTelefoneCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxLength="11"
+            android:layout_below="@id/edtEmpresa"
+            android:hint="Telefone Celular : " />
+      
+     <EditText
+            android:id="@+id/edtTelefoneResidencial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxLength="11"
+            android:layout_below="@id/edtTelefoneCelular"
+            android:hint="Telefone Residencial : " />
+    
+    <EditText
+            android:id="@+id/edtTelefoneComercial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxLength="11"
+            android:layout_below="@id/edtTelefoneResidencial"
+            android:hint="Telefone Comercial : " />
+    
+    <Button 
+        	android:id="@+id/btnEditar"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/edtTelefoneComercial"
+        	android:layout_marginTop="@dimen/btnPadding"
+        	android:layout_centerHorizontal="true"
+        	android:padding="@dimen/btnPadding"
+        	android:text="@string/confirmar" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>
+</ScrollView>

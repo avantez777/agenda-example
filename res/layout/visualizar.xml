@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_menu"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtTitleEdition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/btnPadding"
+        android:text="Contato"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/txtTitleSize" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitleEdition"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/centralPadding"
+        android:padding="36dp" >
+        
+        <!--  NOME -->
+        
+        <LinearLayout
+            android:id="@+id/layoutNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView 
+            android:id="@+id/lbNome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.75"
+            android:text="@string/nome"
+            android:textColor="@color/background_text" />
+        <TextView 
+            android:id="@+id/txtNome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=""
+            android:textColor="@color/background_text" />
+        </LinearLayout>
+        
+        
+        <!--  NASCIMENTO -->
+        
+        <LinearLayout
+            android:id="@+id/layoutNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutNome"
+            android:orientation="horizontal">
+        <TextView 
+            android:id="@+id/lbNascimento"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.75"
+            android:text="@string/nascimento"
+            android:textColor="@color/background_text" />
+        <TextView 
+            android:id="@+id/txtNascimento"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=""
+            android:textColor="@color/background_text" />
+        </LinearLayout>
+        
+        <!--  EMPRESA -->
+        
+        <LinearLayout
+            android:id="@+id/layoutEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutNascimento"
+            android:orientation="horizontal">
+        <TextView 
+            android:id="@+id/lbEmpresa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.75"
+            android:text="@string/empresa"
+            android:textColor="@color/background_text" />
+        <TextView 
+            android:id="@+id/txtEmpresa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=""
+            android:textColor="@color/background_text" />
+        </LinearLayout>
+        
+
+		<!--  TEL. CELULAR -->
+        
+        <LinearLayout
+            android:id="@+id/layoutTelCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutEmpresa"
+            android:orientation="horizontal">
+        <TextView 
+            android:id="@+id/lbTelCelular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.75"
+            android:text="@string/telefoneCelular"
+            android:textColor="@color/background_text" />
+        <TextView 
+            android:id="@+id/txtTelCelular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=""
+            android:textColor="@color/background_text" />
+        </LinearLayout>
+        
+        <!--  TEL. RESIDENCIAL -->
+        
+        <LinearLayout
+            android:id="@+id/layoutTelResidencial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutTelCelular"
+            android:orientation="horizontal">
+        <TextView 
+            android:id="@+id/lbTelResidencial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.75"
+            android:text="@string/telefoneResidencial"
+            android:textColor="@color/background_text" />
+        <TextView 
+            android:id="@+id/txtTelResidencial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=""
+            android:textColor="@color/background_text" />
+        </LinearLayout>
+        
+       <!--  TEL. COMERCIAL -->
+        
+        <LinearLayout
+            android:id="@+id/layoutTelComercial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutTelResidencial"
+            android:orientation="horizontal">
+        <TextView 
+            android:id="@+id/lbTelComercial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.75"
+            android:text="@string/telefoneComercial"
+            android:textColor="@color/background_text" />
+        <TextView 
+            android:id="@+id/txtTelComercial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=""
+            android:textColor="@color/background_text" />
+        </LinearLayout>
+        
+        
+        
+        
+    </RelativeLayout>
+
+</RelativeLayout>

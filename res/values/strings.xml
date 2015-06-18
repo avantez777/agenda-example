@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Agenda Dieese</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="visualizar">Visualizar</string>
+    <string name="alterar">Alterar</string>
+    <string name="excluir">Excluir</string>
+    <string name="confirmar">Confirmar</string>
+    
+    <string name="nome">Nome : </string>
+    <string name="nascimento">Nascimento : </string>
+    <string name="empresa">Empresa : </string>
+    <string name="telefoneCelular">Tel. Celular : </string>
+    <string name="telefoneResidencial">Tel. Residencial : </string>
+    <string name="telefoneComercial">Tel. Comercial : </string>
+    
+
+</resources>

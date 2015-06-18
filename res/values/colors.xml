@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="clouds">#ecf0f1</color>
+    <color name="concrete">#a5a5a5</color>
+    <color name="asbestos">#7f8c8d</color>
+    <color name="silver">#bdc3c7</color>
+    <color name="midnight_blue">#2c3e50</color>
+    <color name="carrot">#e67e22</color>
+    
+    
+    <color name="background_menu">#2c3e50</color>
+    <color name="background_principal">#2c3e50</color>
+    <color name="background_text">#ecf0f1</color>
+</resources>
